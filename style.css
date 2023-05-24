@@ -94,3 +94,8 @@ section ul {
 section li {
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+    color:rgb(236, 235, 234);
+}
