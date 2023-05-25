@@ -19,7 +19,7 @@ header li {
 section {
     display: inline-block;
     width: 30%;
-    height: 250px;
+    height: 300px;
     border: 2px solid rgb(56, 56, 56);
     border-radius: 6px;
     margin: 10px;
@@ -28,13 +28,14 @@ section {
 }
 
 article {
-    padding: 10px 0;
-    height: 270px;
+    width: 100%;
 }
 
 header {
     background-color: #269BDE;
-    color: rgb(236, 235, 234)
+    color: rgb(236, 235, 234);
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 img {
@@ -99,4 +100,8 @@ section li {
 a {
     text-decoration: none;
     color:rgb(236, 235, 234);
+}
+
+script {
+    display: block;
 }
