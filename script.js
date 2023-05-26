@@ -50,7 +50,7 @@ getName();
 // From lab 08
 
 function seePuppies(){
-    let puppies = prompt("How many puppies do you want to see on my page?")
+    let puppies = prompt("How many puppies do you want to see on my page? (Please enter a number")
     for (let i = 0; i < puppies; i++){
         document.write("<img src='puppy.jpg' alt='a white fluffy puppy' id='puppy-image' />");
     }
