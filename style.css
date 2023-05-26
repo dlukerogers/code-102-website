@@ -105,3 +105,11 @@ a {
 script {
     display: block;
 }
+
+#puppy-image {
+    margin: auto 10px;
+    display: inline-block;
+    width: 10%;
+    border: 1px solid rgb(236, 235, 234);
+    border-radius: 5px
+}
